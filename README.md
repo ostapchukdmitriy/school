@@ -1,1 +1,1 @@
-# school
+# school of go
