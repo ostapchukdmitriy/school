@@ -1,0 +1,39 @@
+site_name: Go Mentorship
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Главная: index.md
+  - Roadmap: roadmap.md
+  - Handbook:
+      - Как учиться: handbook/how-to-study.md
+      - Правила: handbook/rules.md
+      - FAQ: handbook/faq.md
+  - Этап 1 — Go Core:
+      - Обзор: stage-1-go-core/index.md
+      - 01. Setup: stage-1-go-core/01-setup.md
+      - 02. Basics: stage-1-go-core/02-basics.md
+      - 03. Types: stage-1-go-core/03-types.md
+      - 04. Functions: stage-1-go-core/04-functions.md
+      - 05. Structs & Methods: stage-1-go-core/05-structs-methods.md
+      - 06. Errors: stage-1-go-core/06-errors.md
+      - 07. Collections: stage-1-go-core/07-collections.md
+      - 08. Strings & Time: stage-1-go-core/08-strings-time.md
+      - 09. Files & IO: stage-1-go-core/09-files-io.md
+      - 10. Tests Intro: stage-1-go-core/10-tests-intro.md
+      - Практика:
+          - Мини-проект 1: stage-1-go-core/practice/mini-project-1.md
+          - Чек-лист: stage-1-go-core/practice/checklist.md
+  - Этап 2 — Backend: stage-2-backend/index.md
+  - Этап 3 — PostgreSQL: stage-3-postgresql/index.md
+  - Этап 4 — Concurrency: stage-4-concurrency/index.md
+  - Этап 5 — Kafka: stage-5-kafka/index.md
+
+plugins:
+  - search
